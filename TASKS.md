@@ -3,7 +3,7 @@
 Every task carries an ID of the form `HHOP-<n>`. IDs are assigned once, never reused, and never
 renumbered.
 
-**Next ID to assign: `HHOP-1`**
+**Next ID to assign: `HHOP-2`**
 
 If this file and history ever disagree, history wins:
 
@@ -30,3 +30,4 @@ git log --oneline | grep -oE 'HHOP-[0-9]+' | sort -t- -k2 -n | tail -1
 
 | ID | Task | Status | Date | Commit |
 | --- | --- | --- | --- | --- |
+| HHOP-1 | Imported Cangupa's full level/solution set as this project's benchmark instances: `tools/packs.json` and `tools/solutions.json`, copied as-is from Cangupa commit `844008e` into `data/cangupa/`, with a new `data/cangupa/README.md` documenting both files' formats (the `rows` character legend, the difficulty-metadata fields, and the move-letter solution encoding) and noting it's a point-in-time snapshot, not a live link. 1000 levels across 20 packs, 3×3 up to 8×7, each with exactly one stored solution in matching pack/level order across both files. Owner-requested directly, not from the backlog | done | 2026-11-25 | — |

@@ -30,7 +30,8 @@ it fails, and where it runs out of memory.
 ## Benchmarks
 
 Real instances come from Cangupa's own generated levels, rather than synthetic or hand-built
-grids.
+grids: a snapshot of all 1000 levels and their stored solutions lives in
+[data/cangupa/](data/cangupa/), with its own README covering the file formats and provenance.
 
 ## Status
 
